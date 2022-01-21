@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "268274804387",
+    "project_id": "halodoc-frdynurm",
+    "storage_bucket": "halodoc-frdynurm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268274804387:android:fc7a2da41fafd219614116",
+        "android_client_info": {
+          "package_name": "com.frdynurm.halodoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268274804387-8o2lbrku7s2rcbnrpte1vh0171372jlj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frdynurm.halodoc",
+            "certificate_hash": "94dd39b45aa280d93f84791b35713785b813d82c"
+          }
+        },
+        {
+          "client_id": "268274804387-i0fqahmcd16vnh7onbk22gpb9aoedvtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1HK009eaW2EGsZHKnJYRquXsaUQf00fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268274804387-i0fqahmcd16vnh7onbk22gpb9aoedvtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
