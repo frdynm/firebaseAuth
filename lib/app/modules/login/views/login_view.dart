@@ -98,7 +98,10 @@ class LoginView extends GetView<LoginController> {
           )),
           SizedBox(height: 10),
           SocialLoginButton(
-              buttonType: SocialLoginButtonType.google, onPressed: () {}),
+              buttonType: SocialLoginButtonType.google,
+              onPressed: () {
+                LoginC.loginGoogle();
+              }),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
