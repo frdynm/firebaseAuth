@@ -3,8 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:halodoc/app/modules/home/views/home_view.dart';
 import 'package:halodoc/app/modules/login/controllers/login_controller.dart';
+import 'package:halodoc/app/modules/login/views/LoadingPage.dart';
 
 import 'app/routes/app_pages.dart';
 
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           }
           return FutureBuilder(
             future: LoginC.autoLogin(),
-            builder: (context, snapshot) => HomeView(),
+            builder: (context, snapshot) => LoadingPage(),
           );
         });
   }

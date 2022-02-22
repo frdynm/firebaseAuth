@@ -8,10 +8,9 @@ class LoginController extends GetxController {
   FirebaseAuth auth = FirebaseAuth.instance;
 
   var isAuth = false.obs;
-  GoogleSignIn _googleSignIn = GoogleSignIn();
+  final GoogleSignIn _googleSignIn = GoogleSignIn();
   GoogleSignInAccount? _account;
-  UserCredential? userCredential, userFB;
-
+  UserCredential? userCredential;
 //deklarasi auth
 
   Future<void> autoLogin() async {
@@ -166,10 +165,5 @@ class LoginController extends GetxController {
           snackPosition: SnackPosition.BOTTOM);
     }
     ;
-  }
-
-  Future<void> Logout() async {
-    await FirebaseAuth.instance.signOut();
-    Get.offAllNamed(Routes.LOGIN);
   }
 }
